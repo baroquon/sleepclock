@@ -1,7 +1,6 @@
 # Kids-clock
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a simple clock that displays different images at night and day so the kids know when they can get out of bed in the morning and when they have to go to bed at night. 
 
 ## Prerequisites
 
@@ -44,7 +43,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
-
+* [Sleep Clock | sleepclock.divshot.io](http://sleepclock.divshot.io/)
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
