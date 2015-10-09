@@ -1,3 +1,9 @@
 {
-  "name": "sleepclock"
+  "name": "sleepclock",
+  "root": "./dist",
+  "routes": {
+    "/tests": "tests/index.html",
+    "/tests/**": "tests/index.html",
+    "/**": "index.html"
+  }
 }
