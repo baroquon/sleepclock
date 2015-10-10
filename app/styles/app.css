@@ -1,16 +1,12 @@
 html, body{
   padding: 0;
   margin: 0;
-  text-align: center;
-  font-size: 3em;
-  font-weight: 600;
   position: relative;
   width: 100%;
   height: 100%;
 }
 body div.clock{
   margin: 0;
-  padding-top: 2em;
   position: absolute;
   top: 0;
   left: 0;
@@ -25,3 +21,12 @@ body div.clock.sleep{
   color: #ddd;
   background: transparent url('/images/night.jpg') top left/cover;
 }
+body div.clock span{
+  font-size: 2em;
+  font-weight: 600;
+  position: absolute;
+  right: 1em;
+  text-shadow: 2px 2px 0 #333;
+  top: 1em;
+}
+
