@@ -1,4 +1,11 @@
 <span>
-  {{time}}
-  <button class='settings' {{action 'openSettings'}}>settings</button>
+  {{#if showingSettings}}
+    <label for='wake'>Wake up time: </label>
+    {{input name='wake' placeholder='Wake up time' value=wakeUp}}
+    <label for='sleep'>Go to sleep time: </label>
+    {{input name='sleep' placeholder='Go to sleep time' value=goToSleep}}
+  {{else}}
+    {{time}}
+  {{/if}}
+  {{settings-button action='toggleSettings'}}
 </span>

@@ -29,4 +29,25 @@ body div.clock span{
   text-shadow: 2px 2px 0 #333;
   top: 1em;
 }
-
+button.settings{
+  background: transparent url('/images/settings.png') top left/cover;
+  border: 0;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: -10px;
+}
+label{
+  font-size: .75em;
+  position: relative;
+  top: -7px;
+}
+input{
+  border-width: 0;
+  border-radius: 4px;
+  padding: .75em;
+  width: 20px;
+  position: relative;
+  top: -8px;
+}
